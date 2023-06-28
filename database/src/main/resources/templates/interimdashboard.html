@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Interim Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .container h1 {
+            margin-bottom: 20px;
+        }
+
+        .container p {
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+
+<body>
+<div class="container">
+    <h1>Welcome to our website!</h1>
+    <p>You are new to this website. Please provide more information about yourself:</p>
+
+    <form action="/signup" method="post">
+        <input type="hidden" name="message" value="You are new to this website. Please provide more information about yourself.">
+        <a href="/userdetails" class="btn btn-primary">Complete User Details</a>
+
+    </form>
+</div>
+</body>
+
+</html>
